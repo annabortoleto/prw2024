@@ -1,8 +1,8 @@
 <?php
 
-list($x, $y) = array_map('intval', explode(' ', readline()));
+list($a, $b) = array_map('intval', explode(' ', readline()));
 
-if ($x % $y == 0 || $y % $x == 0) {
+if ($a % $b == 0 || $b % $a == 0) {
     echo "Sao Multiplos\n";
 } else {
     echo "Nao sao Multiplos\n";
