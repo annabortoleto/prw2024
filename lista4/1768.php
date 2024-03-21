@@ -14,10 +14,10 @@ while ($n = fgets(STDIN))
     }
     $meio = ceil (($n)/2);
     $linha = str_pad ("", $meio-1, " ", STR_PAD_LEFT);
-    $linha = str_pad ($linhs, $meio-1 + 1, "*", STR_PAD_RIGHT);
+    $linha = str_pad ($linha, $meio-1 + 1, "*", STR_PAD_RIGHT);
     echo $linha."\n";
     $linha = str_pad ("", $meio-2, " ", STR_PAD_LEFT);
-    $linha = str_pad ($linhs, $meio-2 + 3, "*", STR_PAD_RIGHT);
+    $linha = str_pad ($linha, $meio-2 + 3, "*", STR_PAD_RIGHT);
     echo $linha."\n\n";
 }
 ?>
